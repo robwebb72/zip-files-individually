@@ -1,0 +1,7 @@
+.idea/
+.vs/
+bin/
+obj/
+appsettings.Development.json
+.config/
+*.bak
