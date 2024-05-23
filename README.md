@@ -1,10 +1,11 @@
 # zip-files-individually
 
-A quick little C# program to zip up each file in a folder in its own zip file.
+A quick little C# program to zip up each file in a folder (depending on the file's extension) in its own zip file.
 
+Mainly used for zipping up rom collections for systems like RecalBox or RetroPie.
 
-## To Dos
+Usage
+`ZipFiles <extension-list> <path>`
 
-- pass in arguments for path and valid extensions should look like `zip-files <extension-list> <path>`
-- confirm path is valid directory (if missing, this is an error)
-- confirm that extensions have been passed in (if missing, this is an error)
+`<extension-list>` a comma seperated list of extensions, only a file with an extension in this list will be zipped
+`<path>` folder where the files to be zipped are located
